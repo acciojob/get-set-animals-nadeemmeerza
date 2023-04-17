@@ -17,11 +17,19 @@ class Dog extends Animal {
 	bark(){
 		console.log("woof");
 	}
+
+	makeSound(){
+		bark();
+	}
 }
 
 class Cat extends Animal {
 	purr(){
 		console.log("purr");
+	}
+
+	makeSound(){
+		purr();
 	}
 }
 
