@@ -9,7 +9,7 @@ class Animal {
 	}
 
 	makeSound(){
-		console.log(`The ${get} makes a sound`);
+		console.log(`The ${this.getEpecies} makes a sound`);
 	}
 }
 
@@ -28,8 +28,7 @@ class Cat extends Animal {
 	}
 	purr(){
 		console.log("purr");
-	}
-	
+	}	
 }
 
 // Do not change the code below this line
